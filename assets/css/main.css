@@ -1659,3 +1659,11 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+.profile-pic {
+    width: 120px;         /* adjust size */
+    height: 120px;        /* adjust size */
+    border-radius: 50%;   /* makes it circular */
+    object-fit: cover;    /* keeps aspect ratio while filling the circle */
+    border: 2px solid white; /* optional, for contrast */
+}
